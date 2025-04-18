@@ -5,7 +5,7 @@ on:
       phone:
         description: '选择手机型号：'
         required: true
-        default: 'MI10'
+        default: 'MI10_Pro'
         type: choice
         options:
           - MI10
