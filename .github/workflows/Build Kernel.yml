@@ -49,7 +49,7 @@ jobs:
           cd $GITHUB_WORKSPACE/kernel_workspace
           wget -q https://github.com/ZyCromerZ/Clang/releases/download/21.0.0git-20250418-release/Clang-21.0.0git-20250418.tar.gz
           mkdir -p clang
-          tar -xzf Clang-19.0.0git-20240125.tar.gz -C clang
+          tar -xzf Clang-21.0.0git-20250418.tar.gz -C clang
 
       - name: 2.克隆源码与补丁
         run: |
